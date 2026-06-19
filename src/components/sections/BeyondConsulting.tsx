@@ -50,7 +50,7 @@ export function BeyondConsulting() {
       className="relative z-10 py-(--spacing-section)"
     >
       <div className="mx-auto max-w-6xl px-6">
-        <SectionHeading index="05" eyebrow="Where we're headed" title={beyond.title} id="beyond-title" />
+        <SectionHeading index="05" eyebrow="Strategy & adoption" title={beyond.title} id="beyond-title" />
 
         <p className="mt-8 max-w-2xl text-base leading-relaxed text-ink-muted sm:text-lg">
           {beyond.body}

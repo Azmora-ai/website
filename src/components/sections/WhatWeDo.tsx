@@ -44,7 +44,7 @@ export function WhatWeDo() {
         <motion.div style={{ y: headerY }}>
           <SectionHeading
             index="02"
-            eyebrow="What we do"
+            eyebrow="The product"
             title={whatWeDo.title}
             id="what-we-do-title"
             align="center"
@@ -59,7 +59,7 @@ export function WhatWeDo() {
             style={{ rotateX, scale, transformStyle: "preserve-3d" }}
             className="rounded-2xl border border-line bg-surface/60 p-3 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.6)] backdrop-blur-sm sm:p-5"
           >
-            <div className="grid gap-3 rounded-xl bg-bg-deep/60 p-3 sm:gap-5 sm:p-5 lg:grid-cols-3">
+            <div className="grid gap-3 rounded-xl bg-bg-deep/60 p-3 sm:grid-cols-2 sm:gap-5 sm:p-5">
               {whatWeDo.services.map((service, i) => (
                 <motion.article
                   key={service.name}
