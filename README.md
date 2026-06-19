@@ -21,6 +21,8 @@ npm run build    # production build → dist/
 npm run preview  # serve the production build
 ```
 
+
+
 ## Where things live
 
 - `src/lib/content.ts` — **all site copy**; edit text here, not in components
